@@ -1,0 +1,35 @@
+unit uFuncoes;
+
+interface
+
+uses sysutils,uMaquina,Classes,uTroco;
+
+ function fConverte(nValor:string):real;
+ procedure MostraResultado(nValor:string);
+
+implementation
+
+function fConverte(nValor:string):real;
+begin
+  Result := StrToFloat(nValor);
+end;
+
+procedure MostraResultado(nValor:string);
+var
+  sTroco:TMaquina;
+  sRet:Tlist;
+  I:integer;
+  Cedulas:TCedula;
+begin
+  sRet := TList.Create;
+  sRet := sTroco.MontarTroco(uFuncoes.fConverte(nValor));
+
+  for I := 0 to sRet.Count - 1 do
+  begin
+    if sRet[I] =
+
+  end;
+
+end;
+
+end.

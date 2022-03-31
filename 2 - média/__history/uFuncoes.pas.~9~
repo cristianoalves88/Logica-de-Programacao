@@ -1,0 +1,24 @@
+unit uFuncoes;
+
+interface
+
+uses sysutils,uMaquina;
+
+ function fConverte(nValor:string):real;
+ procedure MostraResultado(nValor:string);
+
+implementation
+
+function fConverte(nValor:string):real;
+begin
+  Result := StrToFloat(nValor);
+end;
+
+procedure MostraResultado(nValor:string);
+var
+  sTroco:TMaquina;
+begin
+  sTroco.MontarTroco(uFuncoes.fConverte(vTroco));
+end;
+
+end.

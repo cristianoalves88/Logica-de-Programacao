@@ -1,0 +1,22 @@
+unit uFuncoes;
+
+interface
+
+uses sysutils;
+
+ function fConverte(nValor:string):real;
+ procedure MostraResultado;
+
+implementation
+
+function fConverte(nValor:string):real;
+begin
+  Result := StrToFloat(nValor);
+end;
+
+procedure MostraResultado;
+begin
+  //
+end;
+
+end.

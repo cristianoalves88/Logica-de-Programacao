@@ -1,0 +1,25 @@
+unit uMaquina;
+
+interface
+
+uses
+  uIMaquina, Classes, uTroco;
+
+type
+
+  TMaquina = class(TInterfacedObject, IMaquina)
+  public
+    function MontarTroco(Troco: Double): TList;
+  end;
+
+implementation
+
+uses math;
+
+function TMaquina.MontarTroco(Troco: Double): TList;
+  begin
+    
+  end;
+
+end.
+
