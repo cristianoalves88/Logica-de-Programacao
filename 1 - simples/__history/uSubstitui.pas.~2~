@@ -1,0 +1,23 @@
+unit uSubstitui;
+
+interface
+
+type TSubstitui = class
+
+  private
+
+  public
+
+end;
+
+uses
+  uISubstitui;
+
+type
+
+
+implementation
+
+
+end.
+

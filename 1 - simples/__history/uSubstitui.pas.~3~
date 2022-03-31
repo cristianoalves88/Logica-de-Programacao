@@ -1,0 +1,62 @@
+unit uSubstitui;
+
+interface
+
+type TSubstitui = class
+
+  private
+    str: String;
+    Velho: String;
+    Novo: String;
+  public
+    procedure setSubstituirStr (pstr : string);
+    procedure setSubstituirVelho (pvelho : string);
+    procedure setSubstituirNovo (pNovo : string);
+    function getSubstituirStr : string ;
+    function getSubstituirVelho : string ;
+    function getSubstituirNovo : string ;
+end;
+
+uses
+  uISubstitui;
+
+type
+
+
+implementation
+
+
+{ TSubstitui }
+
+function TSubstitui.getSubstituirNovo: string;
+begin
+
+end;
+
+function TSubstitui.getSubstituirStr: string;
+begin
+
+end;
+
+function TSubstitui.getSubstituirVelho: string;
+begin
+
+end;
+
+procedure TSubstitui.setSubstituirNovo(pNovo: string);
+begin
+
+end;
+
+procedure TSubstitui.setSubstituirStr(pstr: string);
+begin
+
+end;
+
+procedure TSubstitui.setSubstituirVelho(pvelho: string);
+begin
+
+end;
+
+end.
+
